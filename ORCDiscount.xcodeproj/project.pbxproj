@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724695A41A535D7400E612DC /* NSString+ORCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */; };
 		729F8C121A53577C009FB9AD /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C017A89F5700158FCD /* Csio.c */; };
 		729F8C131A53577E009FB9AD /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C117A89F5700158FCD /* emmatch.c */; };
 		729F8C141A535780009FB9AD /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C217A89F5700158FCD /* generate.c */; };
@@ -410,6 +411,7 @@
 				729F8C4E1A535977009FB9AD /* setup.c in Sources */,
 				729F8C501A535977009FB9AD /* tags.c in Sources */,
 				729F8C571A5359C5009FB9AD /* xml.c in Sources */,
+				724695A41A535D7400E612DC /* NSString+ORCDiscount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
