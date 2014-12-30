@@ -7,49 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDD7839417A89C3200158FCD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD7839317A89C3200158FCD /* Cocoa.framework */; };
+		729F8C121A53577C009FB9AD /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C017A89F5700158FCD /* Csio.c */; };
+		729F8C131A53577E009FB9AD /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C117A89F5700158FCD /* emmatch.c */; };
+		729F8C141A535780009FB9AD /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C217A89F5700158FCD /* generate.c */; };
+		729F8C151A535784009FB9AD /* github_flavoured.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C317A89F5700158FCD /* github_flavoured.c */; };
+		729F8C161A535787009FB9AD /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C417A89F5700158FCD /* html5.c */; };
+		729F8C171A535789009FB9AD /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C517A89F5700158FCD /* markdown.c */; };
+		729F8C181A53578B009FB9AD /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C717A89F5700158FCD /* mkdio.c */; };
+		729F8C191A53578D009FB9AD /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C817A89F5700158FCD /* resource.c */; };
+		729F8C1A1A535790009FB9AD /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C917A89F5700158FCD /* setup.c */; };
+		729F8C1B1A535795009FB9AD /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CA17A89F5700158FCD /* tags.c */; };
+		729F8C1C1A535797009FB9AD /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CB17A89F5700158FCD /* xml.c */; };
+		729F8C1D1A53579D009FB9AD /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783C617A89F5700158FCD /* markdown.h */; };
+		729F8C1E1A5357A2009FB9AD /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783D917A89F9300158FCD /* tags.h */; };
+		729F8C1F1A5357A6009FB9AD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BC17A89EEC00158FCD /* config.h */; };
+		729F8C201A5357A8009FB9AD /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BD17A89EEC00158FCD /* mkdio.h */; };
+		729F8C211A5357AF009FB9AD /* NSString+ORCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */; };
+		729F8C221A5357B1009FB9AD /* NSString+ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		729F8C251A535883009FB9AD /* ORCDiscount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F8BF91A535725009FB9AD /* ORCDiscount.framework */; };
+		729F8C261A535897009FB9AD /* ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E517A8A1CE00158FCD /* ORCDiscount.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		729F8C451A535977009FB9AD /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C017A89F5700158FCD /* Csio.c */; };
+		729F8C461A535977009FB9AD /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C117A89F5700158FCD /* emmatch.c */; };
+		729F8C471A535977009FB9AD /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C217A89F5700158FCD /* generate.c */; };
+		729F8C481A535977009FB9AD /* github_flavoured.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C317A89F5700158FCD /* github_flavoured.c */; };
+		729F8C491A535977009FB9AD /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C417A89F5700158FCD /* html5.c */; };
+		729F8C4A1A535977009FB9AD /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C517A89F5700158FCD /* markdown.c */; };
+		729F8C4C1A535977009FB9AD /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C717A89F5700158FCD /* mkdio.c */; };
+		729F8C4D1A535977009FB9AD /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C817A89F5700158FCD /* resource.c */; };
+		729F8C4E1A535977009FB9AD /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C917A89F5700158FCD /* setup.c */; };
+		729F8C501A535977009FB9AD /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CA17A89F5700158FCD /* tags.c */; };
+		729F8C511A535983009FB9AD /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783C617A89F5700158FCD /* markdown.h */; };
+		729F8C521A535983009FB9AD /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783D917A89F9300158FCD /* tags.h */; };
+		729F8C531A535983009FB9AD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BC17A89EEC00158FCD /* config.h */; };
+		729F8C541A535983009FB9AD /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BD17A89EEC00158FCD /* mkdio.h */; };
+		729F8C551A53598A009FB9AD /* NSString+ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729F8C561A53598A009FB9AD /* ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E517A8A1CE00158FCD /* ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729F8C571A5359C5009FB9AD /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CB17A89F5700158FCD /* xml.c */; };
 		FDD783A517A89C3200158FCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD783A417A89C3200158FCD /* XCTest.framework */; };
 		FDD783A617A89C3200158FCD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD7839317A89C3200158FCD /* Cocoa.framework */; };
-		FDD783A917A89C3200158FCD /* libORCDiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD7839017A89C3200158FCD /* libORCDiscount.a */; };
 		FDD783AF17A89C3200158FCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD783AD17A89C3200158FCD /* InfoPlist.strings */; };
 		FDD783B117A89C3200158FCD /* ORCDiscountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783B017A89C3200158FCD /* ORCDiscountTests.m */; };
-		FDD783BE17A89EEC00158FCD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BC17A89EEC00158FCD /* config.h */; };
-		FDD783BF17A89EEC00158FCD /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783BD17A89EEC00158FCD /* mkdio.h */; };
-		FDD783CC17A89F5700158FCD /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C017A89F5700158FCD /* Csio.c */; };
-		FDD783CD17A89F5700158FCD /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C117A89F5700158FCD /* emmatch.c */; };
-		FDD783CE17A89F5700158FCD /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C217A89F5700158FCD /* generate.c */; };
-		FDD783CF17A89F5700158FCD /* github_flavoured.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C317A89F5700158FCD /* github_flavoured.c */; };
-		FDD783D017A89F5700158FCD /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C417A89F5700158FCD /* html5.c */; };
-		FDD783D117A89F5700158FCD /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C517A89F5700158FCD /* markdown.c */; };
-		FDD783D217A89F5700158FCD /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783C617A89F5700158FCD /* markdown.h */; };
-		FDD783D317A89F5700158FCD /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C717A89F5700158FCD /* mkdio.c */; };
-		FDD783D417A89F5700158FCD /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C817A89F5700158FCD /* resource.c */; };
-		FDD783D517A89F5700158FCD /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783C917A89F5700158FCD /* setup.c */; };
-		FDD783D617A89F5700158FCD /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CA17A89F5700158FCD /* tags.c */; };
-		FDD783D717A89F5700158FCD /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = FDD783CB17A89F5700158FCD /* xml.c */; };
-		FDD783DA17A89F9300158FCD /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783D917A89F9300158FCD /* tags.h */; };
-		FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDD783E317A8A11000158FCD /* NSString+ORCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */; };
-		FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD783E517A8A1CE00158FCD /* ORCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FDD783A717A89C3200158FCD /* PBXContainerItemProxy */ = {
+		729F8C231A53587F009FB9AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDD7838817A89C3200158FCD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDD7838F17A89C3200158FCD;
-			remoteInfo = Discount;
+			remoteGlobalIDString = 729F8BF81A535725009FB9AD;
+			remoteInfo = ORCDiscount;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FDD7839017A89C3200158FCD /* libORCDiscount.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libORCDiscount.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		729F8BF91A535725009FB9AD /* ORCDiscount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORCDiscount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729F8C2C1A535937009FB9AD /* ORCDiscount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORCDiscount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD7839317A89C3200158FCD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FDD7839617A89C3200158FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FDD7839717A89C3200158FCD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FDD7839817A89C3200158FCD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		FDD7839B17A89C3200158FCD /* ORCDiscount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORCDiscount-Prefix.pch"; sourceTree = "<group>"; };
 		FDD783A317A89C3200158FCD /* ORCDiscountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORCDiscountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD783A417A89C3200158FCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FDD783AC17A89C3200158FCD /* ORCDiscountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORCDiscountTests-Info.plist"; sourceTree = "<group>"; };
@@ -76,11 +92,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FDD7838D17A89C3200158FCD /* Frameworks */ = {
+		729F8BF51A535725009FB9AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD7839417A89C3200158FCD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729F8C281A535937009FB9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729F8C251A535883009FB9AD /* ORCDiscount.framework in Frameworks */,
 				FDD783A617A89C3200158FCD /* Cocoa.framework in Frameworks */,
-				FDD783A917A89C3200158FCD /* libORCDiscount.a in Frameworks */,
 				FDD783A517A89C3200158FCD /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,8 +134,9 @@
 		FDD7839117A89C3200158FCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDD7839017A89C3200158FCD /* libORCDiscount.a */,
 				FDD783A317A89C3200158FCD /* ORCDiscountTests.xctest */,
+				729F8BF91A535725009FB9AD /* ORCDiscount.framework */,
+				729F8C2C1A535937009FB9AD /* ORCDiscount.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,21 +164,12 @@
 		FDD7839917A89C3200158FCD /* Discount */ = {
 			isa = PBXGroup;
 			children = (
-				FDD7839A17A89C3200158FCD /* Supporting Files */,
 				FDD783E017A8A11000158FCD /* NSString+ORCDiscount.h */,
 				FDD783E117A8A11000158FCD /* NSString+ORCDiscount.m */,
 				FDD783E517A8A1CE00158FCD /* ORCDiscount.h */,
 			);
 			name = Discount;
 			path = src;
-			sourceTree = "<group>";
-		};
-		FDD7839A17A89C3200158FCD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FDD7839B17A89C3200158FCD /* ORCDiscount-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FDD783AA17A89C3200158FCD /* DiscountTests */ = {
@@ -217,38 +231,70 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FDD7838E17A89C3200158FCD /* Headers */ = {
+		729F8BF61A535725009FB9AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD783BE17A89EEC00158FCD /* config.h in Headers */,
-				FDD783E217A8A11000158FCD /* NSString+ORCDiscount.h in Headers */,
-				FDD783BF17A89EEC00158FCD /* mkdio.h in Headers */,
-				FDD783D217A89F5700158FCD /* markdown.h in Headers */,
-				FDD783E717A8A1CE00158FCD /* ORCDiscount.h in Headers */,
-				FDD783DA17A89F9300158FCD /* tags.h in Headers */,
+				729F8C261A535897009FB9AD /* ORCDiscount.h in Headers */,
+				729F8C221A5357B1009FB9AD /* NSString+ORCDiscount.h in Headers */,
+				729F8C1F1A5357A6009FB9AD /* config.h in Headers */,
+				729F8C1D1A53579D009FB9AD /* markdown.h in Headers */,
+				729F8C201A5357A8009FB9AD /* mkdio.h in Headers */,
+				729F8C1E1A5357A2009FB9AD /* tags.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729F8C291A535937009FB9AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729F8C551A53598A009FB9AD /* NSString+ORCDiscount.h in Headers */,
+				729F8C561A53598A009FB9AD /* ORCDiscount.h in Headers */,
+				729F8C531A535983009FB9AD /* config.h in Headers */,
+				729F8C511A535983009FB9AD /* markdown.h in Headers */,
+				729F8C541A535983009FB9AD /* mkdio.h in Headers */,
+				729F8C521A535983009FB9AD /* tags.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FDD7838F17A89C3200158FCD /* ORCDiscount */ = {
+		729F8BF81A535725009FB9AD /* ORCDiscount-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD783B417A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscount" */;
+			buildConfigurationList = 729F8C0C1A535725009FB9AD /* Build configuration list for PBXNativeTarget "ORCDiscount-Mac" */;
 			buildPhases = (
-				FDD7838C17A89C3200158FCD /* Sources */,
-				FDD7838D17A89C3200158FCD /* Frameworks */,
-				FDD7838E17A89C3200158FCD /* Headers */,
+				729F8BF41A535725009FB9AD /* Sources */,
+				729F8BF51A535725009FB9AD /* Frameworks */,
+				729F8BF61A535725009FB9AD /* Headers */,
+				729F8BF71A535725009FB9AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ORCDiscount;
-			productName = Discount;
-			productReference = FDD7839017A89C3200158FCD /* libORCDiscount.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "ORCDiscount-Mac";
+			productName = ORCDiscount;
+			productReference = 729F8BF91A535725009FB9AD /* ORCDiscount.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		729F8C2B1A535937009FB9AD /* ORCDiscount-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729F8C3F1A535938009FB9AD /* Build configuration list for PBXNativeTarget "ORCDiscount-iOS" */;
+			buildPhases = (
+				729F8C271A535937009FB9AD /* Sources */,
+				729F8C281A535937009FB9AD /* Frameworks */,
+				729F8C291A535937009FB9AD /* Headers */,
+				729F8C2A1A535937009FB9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ORCDiscount-iOS";
+			productName = ORCDiscount;
+			productReference = 729F8C2C1A535937009FB9AD /* ORCDiscount.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		FDD783A217A89C3200158FCD /* ORCDiscountTests */ = {
 			isa = PBXNativeTarget;
@@ -261,7 +307,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FDD783A817A89C3200158FCD /* PBXTargetDependency */,
+				729F8C241A53587F009FB9AD /* PBXTargetDependency */,
 			);
 			name = ORCDiscountTests;
 			productName = DiscountTests;
@@ -276,6 +322,14 @@
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Neat.io;
+				TargetAttributes = {
+					729F8BF81A535725009FB9AD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					729F8C2B1A535937009FB9AD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
 			};
 			buildConfigurationList = FDD7838B17A89C3200158FCD /* Build configuration list for PBXProject "ORCDiscount" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -289,13 +343,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDD7838F17A89C3200158FCD /* ORCDiscount */,
 				FDD783A217A89C3200158FCD /* ORCDiscountTests */,
+				729F8BF81A535725009FB9AD /* ORCDiscount-Mac */,
+				729F8C2B1A535937009FB9AD /* ORCDiscount-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		729F8BF71A535725009FB9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729F8C2A1A535937009FB9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDD783A117A89C3200158FCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,22 +376,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FDD7838C17A89C3200158FCD /* Sources */ = {
+		729F8BF41A535725009FB9AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD783D017A89F5700158FCD /* html5.c in Sources */,
-				FDD783CC17A89F5700158FCD /* Csio.c in Sources */,
-				FDD783D717A89F5700158FCD /* xml.c in Sources */,
-				FDD783D117A89F5700158FCD /* markdown.c in Sources */,
-				FDD783D317A89F5700158FCD /* mkdio.c in Sources */,
-				FDD783D617A89F5700158FCD /* tags.c in Sources */,
-				FDD783CE17A89F5700158FCD /* generate.c in Sources */,
-				FDD783CD17A89F5700158FCD /* emmatch.c in Sources */,
-				FDD783D517A89F5700158FCD /* setup.c in Sources */,
-				FDD783E317A8A11000158FCD /* NSString+ORCDiscount.m in Sources */,
-				FDD783CF17A89F5700158FCD /* github_flavoured.c in Sources */,
-				FDD783D417A89F5700158FCD /* resource.c in Sources */,
+				729F8C121A53577C009FB9AD /* Csio.c in Sources */,
+				729F8C131A53577E009FB9AD /* emmatch.c in Sources */,
+				729F8C141A535780009FB9AD /* generate.c in Sources */,
+				729F8C151A535784009FB9AD /* github_flavoured.c in Sources */,
+				729F8C161A535787009FB9AD /* html5.c in Sources */,
+				729F8C171A535789009FB9AD /* markdown.c in Sources */,
+				729F8C181A53578B009FB9AD /* mkdio.c in Sources */,
+				729F8C191A53578D009FB9AD /* resource.c in Sources */,
+				729F8C1A1A535790009FB9AD /* setup.c in Sources */,
+				729F8C1B1A535795009FB9AD /* tags.c in Sources */,
+				729F8C1C1A535797009FB9AD /* xml.c in Sources */,
+				729F8C211A5357AF009FB9AD /* NSString+ORCDiscount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729F8C271A535937009FB9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729F8C451A535977009FB9AD /* Csio.c in Sources */,
+				729F8C461A535977009FB9AD /* emmatch.c in Sources */,
+				729F8C471A535977009FB9AD /* generate.c in Sources */,
+				729F8C481A535977009FB9AD /* github_flavoured.c in Sources */,
+				729F8C491A535977009FB9AD /* html5.c in Sources */,
+				729F8C4A1A535977009FB9AD /* markdown.c in Sources */,
+				729F8C4C1A535977009FB9AD /* mkdio.c in Sources */,
+				729F8C4D1A535977009FB9AD /* resource.c in Sources */,
+				729F8C4E1A535977009FB9AD /* setup.c in Sources */,
+				729F8C501A535977009FB9AD /* tags.c in Sources */,
+				729F8C571A5359C5009FB9AD /* xml.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,10 +424,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FDD783A817A89C3200158FCD /* PBXTargetDependency */ = {
+		729F8C241A53587F009FB9AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDD7838F17A89C3200158FCD /* ORCDiscount */;
-			targetProxy = FDD783A717A89C3200158FCD /* PBXContainerItemProxy */;
+			target = 729F8BF81A535725009FB9AD /* ORCDiscount-Mac */;
+			targetProxy = 729F8C231A53587F009FB9AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -356,6 +443,121 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		729F8C0D1A535725009FB9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORCDiscount;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		729F8C0E1A535725009FB9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ORCDiscount;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		729F8C401A535938009FB9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORCDiscount;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		729F8C411A535938009FB9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ORCDiscount;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FDD783B217A89C3200158FCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -426,32 +628,6 @@
 			};
 			name = Release;
 		};
-		FDD783B517A89C3200158FCD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = ORCDiscount;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FDD783B617A89C3200158FCD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "src/ORCDiscount-Prefix.pch";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = ORCDiscount;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		FDD783B817A89C3200158FCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,20 +689,27 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		729F8C0C1A535725009FB9AD /* Build configuration list for PBXNativeTarget "ORCDiscount-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729F8C0D1A535725009FB9AD /* Debug */,
+				729F8C0E1A535725009FB9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729F8C3F1A535938009FB9AD /* Build configuration list for PBXNativeTarget "ORCDiscount-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729F8C401A535938009FB9AD /* Debug */,
+				729F8C411A535938009FB9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FDD7838B17A89C3200158FCD /* Build configuration list for PBXProject "ORCDiscount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD783B217A89C3200158FCD /* Debug */,
 				FDD783B317A89C3200158FCD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDD783B417A89C3200158FCD /* Build configuration list for PBXNativeTarget "ORCDiscount" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDD783B517A89C3200158FCD /* Debug */,
-				FDD783B617A89C3200158FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
